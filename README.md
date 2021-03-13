@@ -43,13 +43,7 @@ bot is a bit cleaner as it can be seen here
 
 ## Dependencies
 
-### Discordpy
-
-https://github.com/Rapptz/discord.py
-
-### Pixivpy
-
-https://github.com/upbit/pixivpy
+[Link](https://github.com/huti26/discordbot/network/dependencies)
 
 ## License
 
