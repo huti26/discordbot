@@ -18,8 +18,8 @@ Intended way of Development & Deployment.
 Download the repository
 
 ```bash
-git clone asdsa
-cd asdas
+git clone https://github.com/huti26/discordbot
+cd discordbot
 ```
 
 Start the Bot and rebuild the image if necessary.
