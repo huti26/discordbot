@@ -1,0 +1,5 @@
+discord
+pixivpy
+requests
+schedule
+more-itertools

@@ -1,0 +1,18 @@
+/venv/
+*.md
+.gitattributes
+.gitignore
+
+# Tests
+/Tests/
+
+# Bot Tests
+/*/Tests/
+
+# Pixiv Tests
+/*/*/Tests/
+
+# Pixiv Docs
+/*/*/Docs/
+
+/Benchmarks/

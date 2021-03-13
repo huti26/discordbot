@@ -1,0 +1,20 @@
+---
+version: "2.1"
+services:
+  discordbot:
+    build: .
+    image: discordbot-huti
+    container_name: discordbot
+    volumes:
+      # Database
+      - pixiv_db:/discordapp/DB/
+      # Offsets
+      - pixiv_resources:/discordapp/Bot/Pixiv/Resources/
+      # admins, blacklisted_tags
+      - cog_resources:/discordapp/Bot/Cogs/Resources/
+    restart: unless-stopped
+
+volumes:
+  pixiv_db:
+  pixiv_resources:
+  cog_resources:
